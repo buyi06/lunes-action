@@ -33,6 +33,7 @@ jobs:
 
       - name: Run login
         run: |
+        id: login
           node -v
           npm -v
           npm run login
